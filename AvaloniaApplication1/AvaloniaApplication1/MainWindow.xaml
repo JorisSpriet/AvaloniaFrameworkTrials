@@ -1,0 +1,16 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaApplication1.MainWindow"
+        Title="AvaloniaApplication1">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="1*" />
+			<RowDefinition Height="2*" />			
+		</Grid.RowDefinitions>
+		<Button Grid.Row="0" Content="Click me !" ClickMode="Press" Background="Red" FontSize="32" Command="ButtonCommand"/>
+		<TextBlock Grid.Row="1" Name="zettxt" Text="Yo !" />
+	</Grid>
+</Window>
